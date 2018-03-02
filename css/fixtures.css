@@ -1,0 +1,206 @@
+body
+{
+	background: #ededed;
+	padding-top: 60px;
+}
+a : hover
+{
+text-decoration: none;
+}
+.panel
+{
+	margin-top: 20px;
+}
+.panel > .match-no
+{
+	padding-left: 10px;
+}
+.btn-danger
+{
+	margin : auto;
+	background-color: #ff8822;
+	border: none;
+	width : 10%;
+	padding: 5px;
+}
+.btn-danger:hover
+{
+	background-color: #ff8822;
+}
+.btn-danger:active
+{
+	background-color: #ff8822 !important;
+}
+.btn-success
+{
+	margin : auto;
+	padding: 5px;
+	border: none;
+	width : 10%;
+}
+.btn-success:active,.btn-success:hover
+{
+	cursor : auto ;
+	background-color: #5cb85c !important;
+}
+.match-centre
+{
+	display : block;
+	text-transform: uppercase;
+	color : #ffffff;
+	padding : 5px 9px;
+	background : #ff8822;
+	width : 22vh;
+	float : right;
+}
+.match-centre:hover
+{
+	background : #efeadd;
+	color : #ff8822;
+	
+}
+
+.details-container
+{
+	padding: 30px;
+	margin-bottom : 20px; 
+}
+.team-left
+{
+	text-align : center;
+}
+.points-left,.points-right
+{
+	text-align : center;
+}
+.team-right
+{
+	text-align : center;
+	
+}
+.vs-button
+{
+	margin: auto;
+	display: block;
+	width :30px;
+	height : 30px;
+	padding: 4px;
+	text-align: center;
+	border-radius: 45%;
+	border : 2px solid #000;
+	background-color : #000;
+	color : white;
+}
+ .result
+{
+	margin-top: 10px;
+	text-align : center;
+	opacity : 0.7;
+}
+.loser
+{
+	opacity: 0.7;
+}
+@media  only screen and (min-width: 992px)
+{
+	.match-container
+	{
+		width : 75%;
+	}
+
+	.btn-danger
+	{
+	width : 15%;
+	}
+	.btn-success
+	{
+	width : 15%;
+	}
+}
+@media only screen and (min-width: 779px) and (max-width: 991px)
+{
+	.match-container
+	{
+		width : 90%;
+	}
+	.btn-danger
+	{
+		width : 20%;
+	}
+	.btn-success
+	{
+		width : 20%;
+	}
+
+}
+@media only screen and (min-width: 579px) and (max-width: 778px)
+{
+	.match-container
+	{
+		width : 95%;
+	}
+	.btn-danger
+	{
+		width : 25%;
+	}
+	.btn-success
+	{
+		width : 25%;
+	}
+
+	
+}
+@media only screen and (max-width: 578px)
+{
+	
+	.match-container
+	{
+		width : 85%;
+	}
+	
+	.btn-danger
+	{
+	width : 35%;
+	}
+	.btn-success
+	{
+		width : 35%;
+	}
+
+}
+@media only screen and (max-width: 400px)
+{
+	.btn-danger
+	{
+		width : 50%;
+	}
+	.btn-success
+	{
+		width : 50%;
+	}
+
+}
+@media only screen and (max-width: 310px)
+{
+	.btn-danger
+	{
+		width : 70%;
+	}
+	.btn-success
+	{
+		width : 70%;
+	}
+
+}
+@media only screen and (max-width: 240px)
+{
+	.btn-danger
+	{
+		width : 100%;
+	}
+	.btn-success
+	{
+		width : 100%;
+	}
+
+}

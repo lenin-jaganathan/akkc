@@ -1,0 +1,124 @@
+body
+{
+	background-color: #eee !important;
+}
+a
+{
+	color : #000;
+}
+a:hover
+{
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+.larger
+{
+	width: 100%;
+}
+.squad-heading
+{
+	color : #882433;
+	text-align: center;
+}
+.row
+{
+	margin-left: 0px;
+}
+.other-heading
+{
+	color : #882433;
+}
+.team-title h4,.team-title h3
+{
+	background-color: #992433;
+	border-radius: 5px;
+	padding: 10px;
+	color : #fff;
+	text-align: center;
+	font-family: BOOK ANTIQUA;
+}
+.news-panel
+{
+	border: 0;
+	margin-top : 10px;
+}
+.news-panel .panel-body
+{
+	padding: 0px;
+	background-color: #eee !important;
+}
+.panel a:hover
+{
+	cursor: pointer;
+}
+.panel-heading
+{
+	background-color: #fff !important;
+	border-bottom: none !important;
+}
+.panel a
+{
+	text-decoration: none;
+	color : #fff;
+}
+.player-panel-outer 
+	{
+		
+		margin-bottom: 10px;
+	}
+.player-panel
+{
+	margin: 4px;
+}
+.player-panel .panel-body
+{
+	padding: 5px;
+}
+.player-image
+{
+	width: 100%;
+	height : 100%;
+}
+.player-name
+{
+	text-align: center;
+	font-style : bold;
+	font-family: veradana;
+}
+.captain
+{
+	background-color: #882433 !important;
+	color: #fff;
+}
+.matches .panel
+{
+	margin-top: 10px;
+}
+.modal-image
+{
+	height : 50%;
+	width: 60%;
+	align-self: center;
+}
+.modal-player-name
+{
+	text-align: center;
+	font-style: bold;
+	font-family: BOOK ANTIQUA;
+}
+@media only screen and (min-width: 992px)
+{
+	.btn-success
+	{
+		width: 50% !important;
+	}
+}
+@media only screen and (min-width: 500px) and (max-width: 768px)
+{
+	.player-panel-outer 
+	{
+		width: 33.333%;
+		margin-bottom: 10px;
+	}
+}
